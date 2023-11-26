@@ -9,6 +9,10 @@
         display: flex;
         justify-content: space-around;
     }
+    .projects-header {
+        text-align: center;
+        font-size: 40px;
+    }
   </style>
 </head>
 
@@ -33,12 +37,17 @@
     <li>SQL</li>
   </ul>
   <hr />
-  <h2>Projects</h2>
+  <h2 class="projects-header">Projects</h2>
   <div class="project-list">
-    <h3><a href="./public/resume.html">Resume</a></h3>
-    <a href="./public/resume.html"><img src="./assets/images/resume.png" height="200" alt="resume"/></a>
-    <h3><a href="./public/pricingtable.html">Pricing Table</a></h3>
-    <a href="./public/pricingtable.html"><img src="./assets/images/PRICINGTABLE.png" height="200" alt="resume"/></a>
+    <div class="project project-one">
+        <h3><a href="./public/resume.html" target="_blank">Resume</a></h3>
+        <a href="./public/resume.html" target="_blank"><img src="./assets/images/resume.png" height="200" alt="resume"/></a>
+    </div>
+    <div class="project project-two">
+        <h3><a href="./public/pricingtable.html" target="_blank">Pricing Table</a></h3>
+        <a href="./public/pricingtable.html" target="_blank"><img src="./assets/images/PRICINGTABLE.png" height="200" alt="resume"/></a>
+    </div>
+    </div>
   </div>
   <hr />
   <a href="./public/about.html">About Me</a>
